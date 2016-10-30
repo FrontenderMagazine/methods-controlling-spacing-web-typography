@@ -12,7 +12,7 @@
 
 Возьмем заголовок, набранный шрифтом [Abril Fatface][3] из Google Fonts:
 
-![][img4]
+![][4]
 
 Это отличный шрифт! Как бы то ни было, пара нюансов этого конкретного заголовка мне не нравится, особенно интервалы между некоторыми буквами, которые делают его немного стиснутым
 
@@ -193,7 +193,7 @@ Image source: webtype.com
  [1]: http://fittextjs.com/
  [2]: http://letteringjs.com/
  [3]: https://fonts.google.com/specimen/Abril+Fatface
- [img4]: img/letter-spacing-figure2a-1024x113.png%201024w
+ [4]: img/letter-spacing-figure2a-1024x113.png
  [5]: img/letter-spacing-figure2-1024x225.jpg%201024w
  [6]: img/letter-spacing-figure3-1024x225.jpg%201024w
  [7]: http://codepen.io/team/css-tricks/pen/PGpOkd/
