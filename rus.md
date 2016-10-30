@@ -193,7 +193,7 @@ Image source: webtype.com
  [1]: http://fittextjs.com/
  [2]: http://letteringjs.com/
  [3]: https://fonts.google.com/specimen/Abril+Fatface
- [4]: img/letter-spacing-figure2a-1024x113.png
+ [4]: img/letter-spacing-figure2a-1024x113.png "title test"
  [5]: img/letter-spacing-figure2-1024x225.jpg%201024w
  [6]: img/letter-spacing-figure3-1024x225.jpg%201024w
  [7]: http://codepen.io/team/css-tricks/pen/PGpOkd/
