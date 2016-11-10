@@ -33,24 +33,56 @@
 
 ![Скриншот][Заголовок шрифтом Abril Fatface без кернинга]
 
-Посмотреть пример [Kerning Toggle][7] от CSS-Tricks ([@css-tricks][8]) на
-[CodePen][9].
+<p data-height="196" data-theme-id="0" data-slug-hash="bBERBy" data-default-tab="result" data-user="FMRobot" data-embed-version="2" data-pen-title="Пример управления кернингом" class="codepen">Посмотреть <a href="http://codepen.io/FMRobot/pen/bBERBy/">пример управления кернингом</a>.</p>
 
-#### Desktop
 
-| Google Chrome | Mozilla Firefox | Internet Explorer | Opera | Apple Safari
-|
+#### Десктоп
 
-| 29*           | 34              | No                | 16*   | 7
-*           |
+<table class="caniuse">
+	<thead>
+		<tr>
+			<th>Google Chrome</th>
+			<th>Mozilla Firefox</th>
+			<th>Internet Explorer</th>
+			<th>Opera</th>
+			<th>Apple Safari</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="yes">29*</td>
+			<td class="yes">34</td>
+			<td class="no">No</td>
+			<td class="yes">16*</td>
+			<td class="yes">7*</td>
+		</tr>
+	</tbody>
+</table>
 
-#### Mobile / Tablet
 
-| iOS Safari | Android | Opera Mobile | Android Chrome | Android Firefox |
+#### Мобильные и планшеты
 
-| 8
-*         | 4.4*    | 37           | 51             | 48
-|
+<table class="caniuse">
+	<thead>
+		<tr>
+			<th>iOS Safari</th>
+			<th>Android</th>
+			<th>Opera Mobile</th>
+			<th>Android Chrome</th>
+			<th>Android Firefox</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="yes">8*</td>
+			<td class="yes">4.4*</td>
+			<td class="yes">37</td>
+			<td class="yes">53</td>
+			<td class="yes">49</td>
+		</tr>
+	</tbody>
+</table>
+
 
 ### Всестороннее исправление плохого межбуквенного расстояния
 
@@ -74,24 +106,56 @@ CSS-свойство `letter-spacing` может значительно изме
 
 Мне бы не хотелось заходить так далеко и говорить, что это лучший шрифт для набора текста, но с дополнительными интервалами читать стало гораздо легче:
 
-Посмотреть пример [zKkPqK][13] от CSS-Tricks ([@css-tricks][8]) на [CodePen][9].
+<p data-height="346" data-theme-id="0" data-slug-hash="VmeWKX" data-default-tab="result" data-user="FMRobot" data-embed-version="2" data-pen-title="Пример изменения межбуквенного интервала" class="codepen">Посмотреть <a href="http://codepen.io/FMRobot/pen/VmeWKX/">пример изменения межбуквенного интервала</a>.</p>
 
 
-#### Desktop
+#### Десктоп
 
-| Google Chrome | Mozilla Firefox | Internet Explorer | Opera | Apple Safari
-|
+<table class="caniuse">
+	<thead>
+		<tr>
+			<th>Google Chrome</th>
+			<th>Mozilla Firefox</th>
+			<th>Internet Explorer</th>
+			<th>Opera</th>
+			<th>Apple Safari</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="maybe">4</td>
+			<td class="yes">2</td>
+			<td class="maybe">5.5</td>
+			<td class="maybe">9</td>
+			<td class="maybe">3.1</td>
+		</tr>
+	</tbody>
+</table>
 
-| 4             | 2               | 5.5               | 9     | 3.1
-|
 
-#### Mobile / Tablet
+#### Мобильные и планшеты
 
-| iOS Safari | Android | Opera Mobile | Android Chrome | Android Firefox |
+<table class="caniuse">
+	<thead>
+		<tr>
+			<th>iOS Safari</th>
+			<th>Android</th>
+			<th>Opera Mobile</th>
+			<th>Android Chrome</th>
+			<th>Android Firefox</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="maybe">3.2</td>
+			<td class="maybe">2.1</td>
+			<td class="maybe">10</td>
+			<td class="yes">53</td>
+			<td class="yes">49</td>
+		</tr>
+	</tbody>
+</table>
 
-| 3.2
-| 2.1     | 10           | 51             | 48
-|
 
 ### Слишком большие или слишком маленькие интервалы между словами
 
@@ -99,14 +163,14 @@ CSS-свойство `letter-spacing` может значительно изме
 
 Здесь нам поможет прекрасное кросс-браузерное CSS-свойство [`word-spacing`][14]. Вот отрывок текста, набранный [Prompt web font][15], который шире большинства остальных шрифтов и может выглядеть неплохо, если использовать нижнее выравнивание.
 
-Посмотреть пример [GjJaaE][16] от Geoff Graham ([@geoffgraham][17]) на [CodePen][9]
+<p data-height="265" data-theme-id="0" data-slug-hash="QGygNe" data-default-tab="result" data-user="FMRobot" data-embed-version="2" data-pen-title="QGygNe" class="codepen">Посмотреть <a href="http://codepen.io/FMRobot/pen/QGygNe/">пример изменения пробельных интервалов между словами</a>.</p>
+
 
 ### Несговорчивые интервалы между линиями
 
 Не все высоты строк считаются равными. Например, одни шрифты выглядят больше чем другие, даже если для них установлено одно значение `font-size`.
 
-Посмотреть пример [Difference in line height by font][18] от CSS-Tricks (
-[@css-tricks][8]) на [CodePen][9].
+<p data-height="265" data-theme-id="0" data-slug-hash="Nbxgqm" data-default-tab="result" data-user="FMRobot" data-embed-version="2" data-pen-title="Различия в интерлиньяже в зависимости от шрифта" class="codepen">Посмотреть пример <a href="http://codepen.io/FMRobot/pen/Nbxgqm/">Различия в интерлиньяже в зависимости от шрифта</a>.</p>
 
 `font-size` задает блок, в пределах которого шрифту разрешено занимать место. Если мы установим `font-size` как `20px`, это создаст блок, занимающий `20px` вертикального пространства для каждого знака.
 
@@ -115,6 +179,7 @@ CSS-свойство `letter-spacing` может значительно изме
 Одни шрифты будут занимать больше места, чем другие, это одновременно создает и видимость того, что одни шрифты больше других, и ощущение большего или меньшего вертикального пространства между линиями.
 
 Мы можем использовать свойство `line-height`, чтобы управлять этим вертикальным пространством. Базовая формула удобочитаемости `font-size * 1.5 = line-height` (или относительный `line-height: 1.5;` без единиц измерения), но это будет зависеть от используемого шрифта и от того, как он занимает вертикальное пространство. Сравните [molten leading][20].
+
 
 ### Четкость и разборчивость
 
@@ -128,7 +193,7 @@ CSS-свойство `letter-spacing` может значительно изме
 В нашем распоряжении несколько CSS-свойств, которые помогают увеличить
 видимое разрешение того, как шрифты отображаются в разных системах. Этот процесс наиболее известен как **субпиксельное сглаживание**, потому что это инструкция для браузера «попытаться заполнить недостающие пиксели там, где они могут существовать».
 
-Нет недостатка в спорах о том, допустимо ли играть с субпиксельным сглаживанием. Несмотря на то, что несколько лет назад Дмитрий Фадеев[ резюмируя его аргументы][22] красиво высказался против этой практики.
+Нет недостатка в спорах о том, допустимо ли играть с субпиксельным сглаживанием. Несмотря на то, что несколько лет назад Дмитрий Фадеев [резюмируя его аргументы][22] красиво высказался против этой практики.
 
 >Режим сглаживания — это не «фикс» для субпиксельного рендеринга, а ловушка в
 >большинстве случаев. Субпиксельный рендеринг технически лучше, чище и более
@@ -170,26 +235,58 @@ CSS-свойство `letter-spacing` может значительно изме
 
 #### Desktop
 
-| Google Chrome | Mozilla Firefox | Internet Explorer | Opera | Apple Safari
-|
+<table class="caniuse">
+	<thead>
+		<tr>
+			<th>Google Chrome</th>
+			<th>Mozilla Firefox</th>
+			<th>Internet Explorer</th>
+			<th>Opera</th>
+			<th>Apple Safari</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="maybe">5*</td>
+			<td class="maybe">25*</td>
+			<td class="no">No</td>
+			<td class="maybe">15*</td>
+			<td class="maybe">4*</td>
+		</tr>
+	</tbody>
+</table>
 
-| 5*            | 25*             | No                | 15*   | 4
-*           |
 
-#### Mobile / Tablet
+#### Мобильные и планшеты
 
-| iOS Safari | Android | Opera Mobile | Android Chrome | Android Firefox |
+<table class="caniuse">
+	<thead>
+		<tr>
+			<th>iOS Safari</th>
+			<th>Android</th>
+			<th>Opera Mobile</th>
+			<th>Android Chrome</th>
+			<th>Android Firefox</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="no">No</td>
+			<td class="no">No</td>
+			<td class="no">No</td>
+			<td class="no">No</td>
+			<td class="no">No</td>
+		</tr>
+	</tbody>
+</table>
 
-| No
-| No      | No           | No             | No
-|
 
 ### О, подождите, вы используете SVG?!
 
 У SVG есть свой собственный уровень поддержки техник, о которых мы рассказывали в этой статье. У нас есть кернинг (не очень много) и обычные свойства letter-spacing (межбуквенное расстояние) и word-spacing (расстояние между словами). Интересно, что у нас также есть атрибут `textLength`, который может использоваться для явного задания того, как широко текст может рендериться, и он растягивает или сжимает текст, чтобы вместить его. Атрибут `lengthAdjust` контролирует рендеринг символов или глифов (например, пунктуации) тоже.
 
-Посмотреть пример [SVG Text Spacing][24] от CSS-Tricks ([@css-tricks][8]) на
-[CodePen][9].
+<p data-height="265" data-theme-id="0" data-slug-hash="ObMgPa" data-default-tab="html,result" data-user="FMRobot" data-embed-version="2" data-pen-title="Межбуквенные расстояния в SVG" class="codepen">Посмотреть пример различных <a href="http://codepen.io/FMRobot/pen/ObMgPa/">межбуквенных расстояний в SVG</a>.</p>
+
 
 ### В заключении
 
