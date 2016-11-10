@@ -301,17 +301,17 @@ CSS-свойство `letter-spacing` может значительно изме
 	}
 	table.caniuse tbody tr:hover td.no,
 	td.no {
-		box-shadow: -.5rem 0 0 0 rgba(255,0,0,.25);
+		box-shadow: none;
 		background-color: rgba(255,0,0,.25);
 	}
 	table.caniuse tbody tr:hover td.yes,
 	td.yes {
-		box-shadow: -.5rem 0 0 0 rgba(0,255,0,.25);
+		box-shadow: none;
 		background-color: rgba(0,255,0,.25);
 	}
 	table.caniuse tbody tr:hover td.maybe,
 	td.maybe {
-		box-shadow: -.5rem 0 0 0 #f608;
+		box-shadow: none;
 		background-color: #f608;
 	}
 </style>
