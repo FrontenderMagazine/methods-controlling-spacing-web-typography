@@ -293,21 +293,22 @@ CSS-свойство `letter-spacing` может значительно изме
 Типографика в вебе — это сложно! Да, мы можем контролировать то, как разные символы отображаются, отрисовываются и позиционируются на экране. Но с великой силой приходит великая отвественность. Теперь в вашем распоряжении есть по меньшей мере несколько приемов, как отвечать веб-дизайнерам, которые зациклены на точности типографического дизайна в браузере.
 
 <style>
-	table.caniuse tbody tr:hover td,
-	table.caniuse tbody tr:hover th,
 	.caniuse td,
 	.caniuse th {
 		padding: .5rem;
 		width: 20%;
 		box-sizing: border-box;
 	}
-	.no {
+	table.caniuse tbody tr:hover td.no {
+		box-shadow: -.5rem 0 0 0 rgba(255,0,0,.25);
 		background-color: rgba(255,0,0,.25);
 	}
-	.yes {
+	table.caniuse tbody tr:hover td.yes {
+		box-shadow: -.5rem 0 0 0 rgba(0,255,0,.25);
 		background-color: rgba(0,255,0,.25);
 	}
-	.maybe {
+	table.caniuse tbody tr:hover td.maybe {
+		box-shadow: -.5rem 0 0 0 #f608;
 		background-color: #f608;
 	}
 </style>
