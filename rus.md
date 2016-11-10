@@ -33,7 +33,7 @@
 
 ![Скриншот][Заголовок шрифтом Abril Fatface без кернинга]
 
-<p data-height="196" data-theme-id="0" data-slug-hash="bBERBy" data-default-tab="result" data-user="FMRobot" data-embed-version="2" data-pen-title="Пример управления кернингом" class="codepen">Посмотреть <a href="http://codepen.io/FMRobot/pen/bBERBy/">пример управления кернингом</a>.</p>
+<p data-height="196" data-theme-id="0" data-slug-hash="dOGRwg" data-default-tab="result" data-user="FMRobot" data-embed-version="2" data-pen-title="Пример управления кернингом" class="codepen">Посмотреть <a href="http://codepen.io/FMRobot/pen/dOGRwg/">пример управления кернингом</a>.</p>
 
 
 ### Десктоп
