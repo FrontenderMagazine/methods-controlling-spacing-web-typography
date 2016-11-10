@@ -312,7 +312,7 @@ CSS-свойство `letter-spacing` может значительно изме
 	table.caniuse tbody tr:hover td.maybe,
 	td.maybe {
 		box-shadow: none;
-		background-color: rgba(255,66,0,.25);
+		background-color: rgba(255,127,0,.25);
 	}
 </style>
 
