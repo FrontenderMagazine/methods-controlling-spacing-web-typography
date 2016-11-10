@@ -299,15 +299,18 @@ CSS-свойство `letter-spacing` может значительно изме
 		width: 20%;
 		box-sizing: border-box;
 	}
-	table.caniuse tbody tr:hover td.no {
+	table.caniuse tbody tr:hover td.no,
+	td.no {
 		box-shadow: -.5rem 0 0 0 rgba(255,0,0,.25);
 		background-color: rgba(255,0,0,.25);
 	}
-	table.caniuse tbody tr:hover td.yes {
+	table.caniuse tbody tr:hover td.yes,
+	td.yes {
 		box-shadow: -.5rem 0 0 0 rgba(0,255,0,.25);
 		background-color: rgba(0,255,0,.25);
 	}
-	table.caniuse tbody tr:hover td.maybe {
+	table.caniuse tbody tr:hover td.maybe,
+	td.maybe {
 		box-shadow: -.5rem 0 0 0 #f608;
 		background-color: #f608;
 	}
